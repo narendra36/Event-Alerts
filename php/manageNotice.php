@@ -3,8 +3,15 @@
  * Created by PhpStorm.
  * User: ndodwaria
  * Date: 2/3/17
- * Time: 6:31 PM
- */
+ * Time: 12:06 AM*/
+    session_start();
+
+  if(!isset($_SESSION["adminlogin"])){
+    header('location: AdminLogin.php');
+  }
+  
+
+
 ?>
 <center>
 <div id="sendNotice" >

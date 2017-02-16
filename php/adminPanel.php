@@ -5,6 +5,11 @@
  * Date: 2/3/17
  * Time: 12:06 AM*/
     session_start();
+
+  if(!isset($_SESSION["adminlogin"])){
+    header('location: AdminLogin.php');
+  }
+  
     require 'conn.php';
 
 ?>
@@ -60,7 +65,7 @@
             <p><a onclick="showForm('showme')" id="ltext">Manage Notification</a></p>
         </div>
         <div id="lbutton">
-            <p><a href="logout.php" id="ltext">Logout</a></p>
+            <p><a href="logout1.php" id="ltext">Logout</a></p>
         </div>
     </div>
     <div id="userinfo">
