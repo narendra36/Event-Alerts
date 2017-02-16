@@ -3,11 +3,16 @@
  * Created by PhpStorm.
  * User: ndodwaria
  * Date: 2/3/17
- * Time: 6:22 PM
- */
+ * Time: 12:06 AM*/
     session_start();
-        require 'conn.php';
-        ?>
+
+  if(!isset($_SESSION["adminlogin"])){
+    header('location: AdminLogin.php');
+  }
+  
+    require 'conn.php';
+
+?>
         <center>
         <form action="deleteUser.php" method="POST">
             <table style="background:white; width:50%">

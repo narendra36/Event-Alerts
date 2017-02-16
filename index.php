@@ -7,6 +7,7 @@
 <html>
      <head>
      	<title>Event-Alerts</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      		<link rel="stylesheet" type="text/css" href="./css/firstcss.css">
      		<link rel="stylesheet" type="text/css" href="./css/design1.css">
         <link rel="stylesheet" type="text/css" href="./css/loginform.css">

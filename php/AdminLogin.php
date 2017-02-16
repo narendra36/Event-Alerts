@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +6,7 @@
 </head>
 	<body>
 		<center>
-		<form action="./login.php" method="POST">
+		<form action="./adminlogin.php" method="POST">
 			<table style="border:black 1px solid; margin-top:50px;">
 				<tr><td>Admin Username</td><td><input type="text" name="adminuser" placeholder="Username"></td></tr>
 				<tr><td>Password</td><td><input type="password" name="apassword" placeholder="password"></td></tr>
