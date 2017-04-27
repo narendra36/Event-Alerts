@@ -17,7 +17,7 @@ Event-Alerts alerts about all the events and workshops organized in NITH by vari
 6. JS
 
 
-**Live Demo :** http://shielded-gorge-27140.herokuapp.com/   
+**Live Demo :** http://eventalerts.000webhostapp.com/  
 
 
 **Screenshots :**
